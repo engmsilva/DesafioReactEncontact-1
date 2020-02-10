@@ -15,11 +15,11 @@ O teste consiste em reproduzir um pequeno componente visual (Office365), onde pa
       2. Iniciais
       3. Titulo
       4. Descrição
-   3. Quando o mouse passar sobre a linha, deve ser apresentada a opção de selecionar o Checkbox.
-   4. Ao marcar o checkbox, todas as Siglas devem ser apresentadas como checkbox para permitir multiplas seleções.
-   5. Ao desmarcar todas as opções, o sistema deve voltar a apresentar as Siglas.
+   3. Quando o usuário passar o mouse sobre a linha, deve ser apresentada a opção de selecionar o item da lista.
+   4. Ao selecionar o item, todas as Iniciais devem ser apresentadas como opção de seleção para permitir multiplas escolhas.
+   5. Ao desmarcar todas as opções, o sistema deve voltar a apresentar as Iniciais.
 
-Segue um exemplo visual extraido de um e-mail Office365:
+Segue um exemplo visual extraido de um e-mail Office365 (Seu resultado não precisa ter a mesma apresentação visual, faça a apresentação que achar melhor):
 
 ![](barra-office365.gif)
 
