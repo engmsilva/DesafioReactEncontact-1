@@ -11,10 +11,9 @@ O teste consiste em reproduzir um pequeno componente visual (Office365), onde pa
 3. O componente deve:
    1. Apresentar uma lista de itens a partir do arquivo "origens.json", considere este arquivo como a resposta de uma API.
    2. Cada item deve apresentar as seguintes informações:
-      1. Identificador
-      2. Iniciais
-      3. Titulo
-      4. Descrição
+      1. Iniciais
+      2. Titulo
+      3. Descrição
    3. Quando o usuário passar o mouse sobre a linha, deve ser apresentada a opção de selecionar o item da lista.
    4. Ao selecionar o item, todas as Iniciais devem ser apresentadas como opção de seleção para permitir multiplas escolhas.
    5. Ao desmarcar todas as opções, o sistema deve voltar a apresentar as Iniciais.
