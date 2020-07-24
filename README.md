@@ -2,25 +2,47 @@
 
 Obrigado por se interessar em participar do teste para desenvolvedor Front-end da [enContact](www.encontact.com.br).
 
-## No que consiste o teste
+## O teste
 
-O teste consiste em reproduzir um pequeno componente visual (Office365), onde para isso deve seguir as seguintes regras:
+O teste consiste em criar uma pequena aplicação, seguindo os itens abaixo:
 
-1. Utilizar React.js (Com ou sem Typescript).
-2. Utilize as melhores práticas/principios que você conhecer para que o componente seja testável e reaproveitável.
-3. O componente deve:
-   1. Apresentar uma lista de itens a partir do arquivo "origens.json", considere este arquivo como a resposta de uma API.
-   2. Cada item deve apresentar as seguintes informações:
-      1. Iniciais
-      2. Titulo
-      3. Descrição
-   3. Quando o usuário passar o mouse sobre a linha, deve ser apresentada a opção de selecionar o item da lista.
+![](markup.png)
+
+1. Utilizar React.js (Preferêncialmente utilizando Typescript).
+2. Utilizar as melhores práticas/principios que você conhecer para que o código seja testável e reaproveitável.
+3. Os dados estão no arquivo "data.json", considere que os dados serão consumidos de uma api externa.
+4. Utilizar globalização. (Adicionar algum botão para que possa alterar a linguagem).
+5. Utilizar tematização. (Adicionar algum botão para que possa escolher o tema: Dark ou Ligth).
+6. Criar uma tela de login simples
+   1. Somente usuário logado poder acessar a Main page.
+   2. Não é necessário validar credênciais, pode utilizar login fixo. (Ex. User: Admin, Pass: Admin).
+
+## Componentes / Comportamentos
+
+![](componentes.png)
+
+1. O componente 1 deve:
+   1. Ao clicar apresentar um menu para que possa ser feito o Logout.
+2. O componente 2 deve:
+   1. Listar a arvore de menu (Obtidos pelo arquivo "data.json").
+   2. Ao selecionar um item (Caixa de entrada, por exemplo), deve atualizar a listagem representada pelo componente 4, com os itens relacionados.
+3. O componente 3 deve:
+   1. Ao clicar no botão "Arquivar" os itens selecionados do componente 4 devem ser removidos da listagem.
+4. O componente 4 deve:
+
+   1. Apresentar os dados relacionados ao item selecionado no componente 2.
+   2. Cada item (Card) deve apresentar as seguintes informações (Exemplo utilizando o primeiro item da imagem):
+      1. Name (José Ronaldo -> Primeiro texto)
+      2. Subject (Boa tarde, como vai você? -> Segundo texto)
+      3. Owner (OA -> Circulo maior com as iniciais)
+      4. Users (OA, OA, OA -> Três circulos menores com as iniciais)
+      5. OBS: As demais informações do Card podem ser fixas.
+   3. Quando o usuário passar o mouse sobre a linha, deve ser apresentada a opção de selecionar o item da lista (Apresentar um checkbox no lugar das iniciais do Owner).
    4. Ao selecionar o item, todas as Iniciais devem ser apresentadas como opção de seleção para permitir multiplas escolhas.
    5. Ao desmarcar todas as opções, o sistema deve voltar a apresentar as Iniciais.
+   6. OBS: Segue um exemplo visual do comportamento desejado extraido de um e-mail Office365:
 
-Segue um exemplo visual extraido de um e-mail Office365 (Seu resultado não precisa ter a mesma apresentação visual, faça a apresentação que achar melhor):
-
-![](barra-office365.gif)
+      ![](barra-office365.gif)
 
 ## Finalizando
 
@@ -28,5 +50,5 @@ Qualquer dúvida, fale conosco.
 
 ## Agradecimentos
 
-* [Office365](https://office365.com) pela ideia de front-end.
-* [Json Generator](https://www.json-generator.com/), que usamos para gerar o Json.
+- [Office365](https://office365.com) pela ideia de front-end.
+- [Json Generator](https://www.json-generator.com/), que usamos para gerar o Json.
