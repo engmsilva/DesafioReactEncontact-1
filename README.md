@@ -1,6 +1,6 @@
 # Teste prático enContact - Frontend
 
-Obrigado por se interessar em participar do teste para desenvolvedor Front-end da [enContact](www.encontact.com.br).
+Obrigado por se interessar em participar do teste para desenvolvedor Front-end da [enContact](http://www.encontact.com.br).
 
 ## O teste
 
